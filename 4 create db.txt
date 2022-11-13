@@ -1,0 +1,3 @@
+use schools
+
+db.students.insert({name:"Md Reazul Islam",city:"Khulna",phoneNumber:"010010010011"})

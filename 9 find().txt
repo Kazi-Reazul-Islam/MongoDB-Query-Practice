@@ -1,0 +1,5 @@
+The find() method finds the documents that satisfy a specified condition and returns a cursor to the matching documents.
+
+
+use shcool
+db.students.find()

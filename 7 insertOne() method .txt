@@ -1,0 +1,5 @@
+insertOne() method allows you to insert a single document into a collection
+
+use Schools
+
+db.Teachers.insertOne({name:"B",city:"Dhaka"})

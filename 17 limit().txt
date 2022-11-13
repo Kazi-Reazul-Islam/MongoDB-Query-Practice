@@ -1,0 +1,1 @@
+db.products.find({},{title:1,type:1,price:1,stock:1}).limit(5)

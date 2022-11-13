@@ -1,0 +1,6 @@
+insertMany() allows you to insert multiple documents into a collection
+
+
+use Schools
+
+db.students.insertMany([{name:"Rakib",city:"Khulna"},{name:"Shohag",city:"Jessore"},{name:"Nabil",city:"Nababgong",houseNo:"21",age:"21"}])

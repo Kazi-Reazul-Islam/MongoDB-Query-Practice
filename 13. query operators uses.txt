@@ -1,0 +1,15 @@
+db.products.find({price:{$eq:1000}},{title:1,type:1,price:1,_id:0})
+
+db.products.find({price:{$lt:1000}},{title:1,type:1,price:1,_id:0})
+
+db.products.find({price:{$lte:1000}},{title:1,type:1,price:1,_id:0})
+
+db.products.find({price:{$gt:1000}},{title:1,type:1,price:1,_id:0})
+
+db.products.find({price:{$gte:1000}},{title:1,type:1,price:1,_id:0})
+
+db.products.find({price:{$ne:1000}},{title:1,type:1,price:1,_id:0})
+
+db.products.find({price:{$in:1000}},{title:1,type:1,price:1,_id:0})
+
+db.products.find({price:{$nin:1000}},{title:1,type:1,price:1,_id:0})

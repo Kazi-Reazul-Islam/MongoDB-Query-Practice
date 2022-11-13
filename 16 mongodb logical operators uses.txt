@@ -1,0 +1,6 @@
+db.products.find({$and:[{price:{$eq:1500}},{stock:{$eq:"Yes"}}]},{title:1,type:1,_id:0,stock:1})
+
+db.products.find({$or:[{price:{$eq:1500}},{stock:{$eq:"Yes"}}]},{title:1,type:1,_id:0,stock:1})
+
+
+

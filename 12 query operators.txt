@@ -1,0 +1,10 @@
+Query Operators:
+
+$eq: Equal to operator
+$lt: Less than operators
+$lte: Less than equal to operators
+$gt: Greater than operators
+$gte: Greater than equal to operators
+$ne: Not equal to operators
+$in: In operators
+$nin: Not in operators

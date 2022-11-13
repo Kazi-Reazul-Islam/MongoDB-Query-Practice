@@ -1,0 +1,6 @@
+The findOne() returns a single document from a collection that satisfies the specified condition.
+
+
+use schools
+
+db.students.findOne({name:"Reazul Islam"})

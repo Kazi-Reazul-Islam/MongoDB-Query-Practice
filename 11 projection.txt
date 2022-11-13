@@ -1,0 +1,15 @@
+MongoDB, projection means selecting only the necessary data rather than selecting whole of the data of a document.
+
+
+
+use schools
+
+db.products.find({},{title:1,type:1,price:1,rating:1})
+
+
+Note: For removing _id we can use _id:0
+
+
+db.products.find({},{title:1,type:1,price:1,rating:1,_id:0})
+
+

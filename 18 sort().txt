@@ -1,0 +1,8 @@
+note: sort({title:1}) 1 is for ascending order  and sort({title:-1}) -1 is for descending order 
+
+db.products.find({},{title:1,type:1,price:1,_id:0}).sort({title:1}) 
+
+db.products.find({},{title:1,type:1,price:1,_id:0}).sort({title:-1})
+
+
+
